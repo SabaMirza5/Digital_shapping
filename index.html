@@ -17,7 +17,7 @@
       >
         <div class="flex items-center justify-between">
           <div>
-            <a href="#" class="">
+            <a href="#hero" class="">
               <img src="./assets/img/digilogo.png" alt="" />
             </a>
           </div>
@@ -44,23 +44,28 @@
           >
             <li>
               <a
-                class="xl:p-4 lg:p-2 py-2 block hover:text-purple-400 poppins"
-                href="./shop.html"
+                class="xl:p-4 lg:p-2 py-2 block hover:text-purple-400 poppins hover:underline hover:text-yellow-500 duration-300"
+                style="text-underline-offset: 8px"
+               
+                href="#hero"
                 >Home</a
               >
             </li>
             <li>
-              <a class="xl:p-4 lg:p-2 py-2 block hover:text-purple-400 poppins" href="#"
+              <a class="xl:p-4 lg:p-2 py-2 block hover:text-purple-400 poppins hover:underline hover:text-yellow-500 duration-300" href="#aboutus"
+              style="text-underline-offset: 8px"
                 >About Us</a
               >
             </li>
             <li>
-              <a class="xl:p-4 lg:p-2 py-2 block hover:text-purple-400 poppins" href="#"
+              <a class="xl:p-4 lg:p-2 py-2 block hover:text-purple-400 poppins hover:underline hover:text-yellow-500 duration-300" href="#services"
+              style="text-underline-offset: 8px"
                 >Services</a
               >
             </li>
             <li>
-              <a class="xl:p-4 lg:p-2 py-2 block hover:text-purple-400 poppins" href="#"
+              <a class="xl:p-4 lg:p-2 py-2 block hover:text-purple-400 poppins hover:underline hover:text-yellow-500 duration-300" href="#portfolio"
+              style="text-underline-offset: 8px"
                 >Portfolio</a
               >
             </li>
@@ -76,7 +81,7 @@
               class="pt-4 text-base flex xl:gap-5 lg:gap-3 gap-5 lg:justify-between md:pt-0 text-center justify-center"
             >
               <li>
-                <a class="block" href="#" class="h-[30px] w-[30px]">
+                <a class="block"  href="https://www.linkedin.com/company/digital-shaping/"  class="h-[30px] w-[30px]">
                   <img
                     src="./assets/img/linkedin.png"
                     alt=""
@@ -85,7 +90,7 @@
                 </a>
               </li>
               <li>
-                <a class="block" href="#" class="h-[30px] w-[30px]">
+                <a class="block" href="https://www.instagram.com/digitalshaping/" class="h-[30px] w-[30px]">
                   <img
                     src="./assets/img/insta.png"
                     alt=""
@@ -94,7 +99,7 @@
                 </a>
               </li>
               <li>
-                <a class="block" href="#" class="h-[30px] w-[30px]">
+                <a class="block" href="https://web.facebook.com/people/Digital-Shaping/61555193805019/?mibextid=LQQJ4d" class="h-[30px] w-[30px]">
                   <img
                     src="./assets/img/facebook.png"
                     alt=""
@@ -103,7 +108,7 @@
                 </a>
               </li>
               <li>
-                <a class="block" href="#" class="h-[30px] w-[30px]">
+                <a class="block" href="https://www.tiktok.com/@digitalshaping?_t=8iwgsz3Fhyx&_r=1" class="h-[30px] w-[30px]">
                   <img
                     src="./assets/img/tiktok.png"
                     alt=""
@@ -116,16 +121,16 @@
           <div
             class="flex lg:items-center md:flex-row flex-col xl:gap-5 lg:gap-2 gap-5 lg:mt-0 md:mt-5 mt-5 md:justify-center poppins"
           >
-            <button
+            <a  href="https://calendly.com/digital-shaping/discovery-call"
               class="border border-[#030303] text-[#030303] font-semibold xl:text-xl lg:text-base md:text-xl text-base py-3 xl:px-6 lg:px-2 px-6 rounded-[10px] hover:bg-black hover:text-white"
             >
               Book Free Consultation
-            </button>
-            <button
+            </a>
+            <a  href="#contact"
               class="border border-[#030303] text-[#030303] font-semibold xl:text-xl lg:text-base text-xl py-3 xl:px-6 lg:px-2 px-6 rounded-[10px] hover:bg-black hover:text-white poppins"
             >
               Contact us
-            </button>
+            </a>
           </div>
         </div>
       </nav>
@@ -135,8 +140,8 @@
 
 
     <!-- =========================HERO SECTION START HERE==================== -->
-    <section class="mt-20 p-[5%] relative">
-      <div class="absolute -z-10 hidden lg:flex justify-end w-[90%]">
+    <section class="mt-20 p-[5%] relative" id="#hero">
+      <div class="absolute -z-10  flex justify-end w-[90%]">
         <img src="./assets/img/video.gif" class="opacity-45" alt="" />
       </div>
       <div class="">
@@ -163,8 +168,18 @@
           Marketing<br />
           <span class="hero-glow">Agency</span>
         </h2>
-        <div class="">
+        <!-- <div class="">
           <img src="./assets/img/hero-2.png" alt="logo-img" />
+        </div> -->
+        <div class="fancy">
+          <i style="--clr: #00ff0a"></i>
+          <i style="--clr: #ff0057"></i>
+          <i style="--clr: #fffd44"></i>
+          <img
+            class="rotate"
+            src="./assets/img/hero-2.png"
+            alt="logo-img"
+          />
         </div>
         <h2
           class="font-thin gbook 2xl:text-7xl md:text-5xl text-xl inline-block text-black"
@@ -179,7 +194,7 @@
 
 
     <!-- =========================ABOUT US SECTION START HERE==================== -->
-    <section class="mt-20 p-[5%]">
+    <section class="mt-20 p-[5%]" id="aboutus">
         <div
           class="flex lg:flex-row flex-col items-center xl:gap-0 gap-9"
           data-aos="fade-up"
@@ -210,7 +225,7 @@
             <a
               href="https://calendly.com/digital-shaping/discovery-call"
               target="_blank"
-              class="md:mt-8 mt-5 border glow border-[#030303] hover:bg-[#030303] hover:text-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-xl px-3  py-2.5 text-center font-semibold poppins text-[#030303] lg:text-lg text-sm flex justify-center items-center">
+              class="md:mt-8 mt-5 border glow border-[#030303] hover:bg-[#030303] hover:text-white focus:ring-4 focus:outline-none focus:ring-gray-300 rounded-xl px-3  py-2.5 text-center font-medium poppins text-[#030303] lg:text-lg text-sm flex justify-center items-center">
              
                 Book Free Consultation
              
@@ -230,7 +245,7 @@
 
 
     <!-- =========================WE ARE EXPERT AT SECTION START HERE==================== -->
-    <section class="mt-20 p-[5%]">
+    <section class="mt-20 p-[5%]" id="services">
    
         <div
           class="flex justify-between md:flex-row flex-col-reverse items-center"
@@ -244,7 +259,25 @@
              &#8618; we are <br />expert at<br />
             </h2>
           </div>
-          <div
+
+
+
+
+          <div>
+              <!--ring div starts here-->
+              <div class="fancy">
+                <i style="--clr: #00ff0a"></i>
+                <i style="--clr: #ff0057"></i>
+                <i style="--clr: #fffd44"></i>
+                <img
+                  class="rotate"
+                  src="./assets/img/hero-2.png"
+                  alt="logo-img"
+                />
+              </div>
+              <!--ring div ends here-->
+            </div>
+          <!-- <div
             class=""
           >
             <div class="">
@@ -255,7 +288,7 @@
               />
             </div>
    
-          </div>
+          </div> -->
         </div>
 
         <!-- Swiper Slider Services Card Start  -->
@@ -490,7 +523,7 @@
 
 
     <!-- =========================MEET OUR TEAM SECTION START HERE==================== -->
-    <section class="mt-20 p-[5%]">
+    <section class="mt-20 p-[5%]" >
         <div class=" " data-aos="fade-up">
           <div class="flex">
             <h2
@@ -503,32 +536,32 @@
         <ul role="list">
           <li class="member" data-aos="fade-up">
             <a class="member-link">
-              <h2 class="member-name  gbook text-black">Alex</h2>
-              <p class="member-role gbook text-black">CEO & Co-Founder</p>
+              <h2 class="member-name subheading">Alex</h2>
+              <p class="member-role subheading">CEO & Co-Founder</p>
               <img class="member-photo" src="./assets/img/Alex.png" alt="" />
             </a>
           </li>
 
           <li class="member" data-aos="fade-up">
             <a class="member-link">
-              <h2 class="member-name gbook text-black">Rosse</h2>
-              <p class="member-role gbook text-black">COO & Co-Founder</p>
+              <h2 class="member-name subheading">Rosse</h2>
+              <p class="member-role subheading">COO & Co-Founder</p>
               <img class="member-photo" src="./assets/img/Rosse.png" alt="" />
             </a>
           </li>
 
           <li class="member" data-aos="fade-up">
             <a class="member-link">
-              <h2 class="member-name gbook text-black">Emmet</h2>
-              <p class="member-role gbook text-black">Revenue Growth Manager</p>
+              <h2 class="member-name subheading">Emmet</h2>
+              <p class="member-role subheading">Revenue Growth Manager</p>
               <img class="member-photo" src="./assets/img/Emmet.png" alt="" />
             </a>
           </li>
 
           <li class="member" data-aos="fade-up">
             <a class="member-link">
-              <h2 class="member-name gbook text-black">Elias</h2>
-              <p class="member-role gbook text-black">Head of Creatives</p>
+              <h2 class="member-name subheading">Elias</h2>
+              <p class="member-role subheading">Head of Creatives</p>
               <img class="member-photo" src="./assets/img/Elias.png" alt="" />
             </a>
           </li>
@@ -539,7 +572,7 @@
 
 
      <!-- =========================OUR RECENT PROJECT SECTION START HERE==================== -->
-     <section class="mt-20 p-[5%]">
+     <section class="mt-20 p-[5%]" id="portfolio">
       <div class="md:flex-row flex-col items-center flex gap-20">
         <div class="basis-full md:basis-1/4 mt-[60px]">
           
@@ -549,7 +582,6 @@
           >
             &#8618; Our Recent projects
           </h2>
-          <!-- <a href=""><button class=" glow md:mt-[84px] mt-5 border border-white border-1 rounded-lg text-lg capitalize bodytext2  px-1">More Projects</button></a> -->
         </div>
         <div class="basis-full md:basis-3/4 w-full" data-aos="fade-up">
           <div class="md:flex-row flex-col flex gap-6">
@@ -604,30 +636,32 @@
 
   <!-- =========================CUSTOMER REVIEW SECTION START HERE==================== -->
   <section class="mt-20 p-[5%]">
-    
       <div
-        class="flex justify-between md:flex-row flex-col-reverse items-centeer"
-        data-aos="fade-up"
-      >
-        <div class="flex">
-        
-          <h2
-            class="gbook hero-glow capitalize font-light 2xl:text-[127px] xl:text-[100px] text-[32px] pl-9"
-          >
-            &#8618; Customer <br />reviews about <br />our work<br />
-          </h2>
-        </div>
-          <div class="flex justify-center items-center md:items-start">
-           
-            <img
-              class="rotate"
-              src="./assets/img/hero-2.png"
-              alt="logo-img"
-            />
-        </div>
+      class="flex justify-between md:flex-row flex-col-reverse items-center"
+      data-aos="fade-up">
+      <div class="flex">
+      
+        <h2
+          class="gbook hero-glow capitalize font-light 2xl:text-[127px] xl:text-[100px] text-[32px] pl-9"
+        >
+          &#8618; Customer <br />reviews about <br />our work<br />
+        </h2>
       </div>
+      <div>
 
-
+        <div class="fancy flex justify-center items-center md:items-start">
+          <i style="--clr: #00ff0a"></i>
+          <i style="--clr: #ff0057"></i>
+          <i style="--clr: #fffd44"></i>
+          <img
+            class="rotate"
+            src="./assets/img/hero-2.png"
+            alt="logo-img"
+          />
+        </div>
+    
+      </div>
+    </div>
   <!-- Swiper -->
   <div class="swiper mySwiper">
     <div class="swiper-wrapper">
@@ -774,26 +808,36 @@
 </section>
   <!-- =========================CUSTOMER REVIEW SECTION END HERE==================== -->
   <!-- =========================CONTACT US  SECTION START HERE==================== -->
-   <section class="mt-20 p-[5%]">
+   <section class="mt-20 p-[5%]" id="contact">
    
       <div class="md:p-[5%] p-[7%] border-color shadow-main">
-        <div class="flex justify-between md:flex-row flex-col items-center">
+        <div class="flex justify-between md:flex-row flex-col-reverse items-center">
           <h2
-            class="gbook hero-glow capitalize font-light leading-normal md:text-7xl text-4xl md:pt-0 pt-5 text-center md:text-left"
+            class="gbook hero-glow capitalize font-light md:leading-[81px] leading-normal md:text-7xl text-4xl md:pt-0 pt-5 text-center md:text-left"
           >
             Hello
             <br />
             Digital Shaping
           </h2>
 
+
+
+
+          
+
           <div
-            class="justify-center md:flex rotate hidden"
-          >
-      
-            <div class="">
-              <img src="./assets/img/hero-2.png" alt="logo-img" />
-            </div>
-         
+            class="justify-center  rotate">
+          
+            <div class="fancy">
+              <i style="--clr: #00ff0a"></i>
+              <i style="--clr: #ff0057"></i>
+              <i style="--clr: #fffd44"></i>
+              <img
+                class="rotate"
+                src="./assets/img/hero-2.png"
+                alt="logo-img"
+              />
+            </div> 
           </div>
         </div>
 
@@ -1004,6 +1048,50 @@
     mousewheel: true,
     keyboard: true,
   });
+
+
+
+
+
+
+  const clamp = (min, number, max) => Math.min(max, Math.max(number, min));
+let prevX = 0;
+
+document.querySelectorAll(".member").forEach((member) => {
+  const img = member.querySelector(".member-photo");
+  let timeout;
+
+  member.addEventListener("mousemove", (e) => {
+    clearTimeout(timeout);
+
+    const x = e.clientX - member.getBoundingClientRect().left - img.clientWidth / 2;
+    const y = e.clientY - member.getBoundingClientRect().top - img.clientHeight / 2;
+    const rotate = e.clientX - prevX;
+    prevX = e.clientX;
+    
+    // console.log({y, x, rotate});
+
+    requestAnimationFrame(() => {
+      img.style.translate = `${x}px ${y}px`;
+      img.style.rotate = clamp(-8, rotate * 2, 8) + "deg";
+    });
+
+    timeout = setTimeout(() => {img.style.rotate = "0deg"}, 250);
+  });
+
+  member.addEventListener("mouseenter", () => {
+    setTimeout(() => {
+      img.style.transition = "1200ms cubic-bezier(0.23, 1, 0.320, 1)";
+      img.style.opacity = 1;
+    }, 1);
+  });
+
+  member.addEventListener("mouseleave", () => {
+    img.style.transition = "none";
+    img.style.opacity = 0;
+  });
+});
+//team section animation end
 </script>
   </body>
 </html>
