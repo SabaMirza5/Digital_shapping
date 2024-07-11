@@ -50,7 +50,7 @@ if (isset($_POST["submit"])) {
           "
           <script>
          
-          document.location.href = './index.php';
+          document.location.href = './index.html';
          </script>
           ";
       } catch (Exception $e) {
@@ -59,7 +59,7 @@ if (isset($_POST["submit"])) {
           
           <script>
           alert('Message could not be sent. Mailer Error: {$mail->ErrorInfo}');
-          document.location.href = './index.php';
+          document.location.href = './index.html';
          </script>
           
           
